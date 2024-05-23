@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363062;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+/* ? HEADER SECTION */
+
+header .title {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 2rem;
+    color: orange;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header .header__link {
+    color: #000;
+}
+
+/*? MAIN SECTION */
+
+main {
+    padding-inline: 10rem;
+    padding-block: 1rem;
+}
+
+main h2 {
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+}
+
+main .p__content {
+    color: orange;
+    margin-block: 1rem;
+    font-weight: 300;
+}
+
+main .p__content a {
+    color: #fff;
+    font-style: italic;
+}
+
+.image__download {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image__download img {
+    width: 100%;
+    margin-block-end: 1rem;
+    border-radius: .5rem;
+}
+
+.image__download #btn {
+    width: 100%;
+    height: 40px;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 1em;
+    border-radius: .5rem;
+    background-color: rgb(221, 173, 84);
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.image__download #btn:hover {
+    border: 1px solid #fff7;
+    background-color: orange;
+}
+
+del {
+    color: #ffffff;
+}
+
+ul {
+    color: orange;
+}
+
+.genre {
+    background-color: #fff;
+    padding: 1rem;
+    margin-block: 1rem;
+    border-radius: .5rem;
+}
+
+.genre ul {
+    list-style-position: inside;
+}
+
+.genre ul li {
+    margin-inline: 1rem;
+    color: #000;
+}
+
+.genre h3 {
+    color: orange;
+}
+
+.genre ul li a {
+    color: orangered;
+}
+
+.last__section h4 {
+    color: orange;
+    font-size: 1.5em;
+}
+
+.last__section ol {
+    margin-block: 1rem;
+    padding-inline: 1rem;
+    color: orange;
+}
+
+.last__section ol li a {
+    color: #fff;
+}
+
+
+
+
+/* ? FOOTER */
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: .8em;
+    font-weight: 100;
+}
